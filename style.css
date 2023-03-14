@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  font-size: 16px;
+  padding: 0% 0%;
+  margin: 0% 0%;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 40vw;
+  background-image: url("background.avif");
+  background-size: cover;
+}
+
+.left-container .space {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 40vw;
+}
+
+.herobox {
+  font-size: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url("odin-logo.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  color: white;
+  height: 15vh;
+  width: 40vw;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-box {
+  width: 60vw;
+  height: 40vh;
+  background-color: rgb(255, 120, 120);
+}
+
+.form-box {
+  width: 60vw;
+  height: 30vh;
+  background-color: rgb(131, 40, 40);
+}
+
+.create-account {
+  width: 60vw;
+  height: 30vh;
+  background-color: rgb(219, 207, 207);
+}
