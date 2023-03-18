@@ -1,11 +1,33 @@
 @font-face { font-family: norse-bold; src: url('norse-bold.otf'); } 
 
-body {
+:root{
   font-family: "Roboto", sans-serif;
-  display: flex;
   font-size: 16px;
+}
+
+body {
+  display: flex;
   padding: 0% 0%;
   margin: 0% 0%;
+}
+
+input, label {
+  display: block;
+}
+
+input {
+  width: 10rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0rem 3rem 1rem 0rem;
+  font-size: 1rem;
+  height: 1.2 rem;
+}
+
+label {
+  font-size: 0.8rem;
+  color:rgb(70, 70, 67);
 }
 
 button {
@@ -16,6 +38,12 @@ button {
   font-size: 1rem;
   border-radius: 10px;
   font-weight: 700;
+}
+
+a {
+  color: rgb(18, 85, 57);
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .left-container {
@@ -65,7 +93,7 @@ button {
 .intro-box {
   width: 60vw;
   height: 40vh;
-  background-color: rgb(240, 229, 229);
+  background-color: rgb(241, 235, 235);
 }
 
 .intro-text {
@@ -77,19 +105,32 @@ button {
 }
 
 .form-box {
+  display: flex;
+  flex-direction: column;
   width: 60vw;
   height: 30vh;
-  background-color: rgb(253, 243, 243);
+  background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px;
+  padding: 1rem 4rem;
 }
 
 .create-account {
   width: 60vw;
   height: 30vh;
-  background-color: rgb(240, 229, 229);
+  background-color: rgb(241, 235, 235);
 }
 
 .create-account-text {
   margin-left: 4rem;
   margin-top: 2rem;
+}
+
+.form-box .header {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.form-div {
+  display: flex;
 }
